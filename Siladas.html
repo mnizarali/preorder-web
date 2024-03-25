@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siladas Store</title>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- my icon -->
+    <link rel="icon web" type="icon" href="./image/siladas (kebas) (1).png" />
+
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <!-- bootsrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <!-- slick link -->
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- bootstrap icon link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+    <div id="main-content">
+        <header>
+            <nav class="navbar visible">
+
+                <div class="title">
+                    <a href="#">
+                        <img src="./image/siladas (kebas).png" class="img-fluid" width="150" alt="kael store" />
+                    </a>
+                </div>
+
+                <div class="nav-links align-items-center">
+                    <a href="#" class="nav-item">Home</a>
+                    <a href="#collection" class="nav-item">Produk</a>
+                    <a href="#testimoni" class="nav-item">Testimoni</a>
+                    <a href="#order" class="nav-item">Order</a>
+                    <a href="http://wa.me/6281295003626" class="btn-contact inside-links">Kontak Kami</a>
+                </div>
+
+                <a href="http://wa.me/6281295003626" class="btn-contact outside-links">Kontak Kami</a>
+
+                <div class="hamburger">
+                    <input type="checkbox" class="hamburger-inp" id="hamburger" />
+                    <span class="ham-item"></span>
+                    <span class="ham-item"></span>
+                    <span class="ham-item"></span>
+                </div>
+            </nav>
+        </header>
+    </div>
+
+
+    <!-- hero -->
+    <section class="hero" id="hero">
+        <!-- main content -->
+        <div class="main">
+            <div class="text-reseption parallax-show">
+                <h1>Selamat Datang Di <span class="span-hero">Siladas</span></h1>
+                <p>
+                    Upami cinta tos melekat mah, <br />
+                    Siladas lada pisan ge karasa nikmat.
+                </p>
+                <a href="#collection" class="btn-signup px-3 py-3">lihat produk kami</a>
+            </div>
+            <div class="image-content parallax-show">
+                <img src="./image/gambar1.png" class="sepatu" alt="Bakso Siladas" />
+            </div>
+        </div>
+
+        <!-- shapes -->
+        <div class="custom-shape-divider-bottom-1708863223">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
+                preserveAspectRatio="none">
+                <path
+                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                    opacity=".25" class="shape-fill one"></path>
+                <path
+                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                    opacity=".5" class="shape-fill two"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill three"></path>
+                <path
+                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                    class="shape-fill four"></path>
+            </svg>
+        </div>
+    </section>
+    <!-- end hero -->
+
+
+
+
+    <!-- collection -->
+    <section class="collection" id="collection">
+        <div class="title-primary">
+            <h3 class="t-collection">Produk</h3>
+            <br>
+            <h1 class="n-t-collection">Produk Yang Tersedia</h1>
+        </div>
+        <div class="container">
+            <div class="container-content">
+                <div class="tab-box">
+                    <button class="tab-btn">Bakso Siladas</button>
+                    <!-- <button class="tab-btn">Minuman Siladas</button> -->
+                    <!-- <button class="tab-btn">Jacket</button> -->
+                </div>
+
+                <!-- accesories -->
+                <div class="content-box">
+                    <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/gambar1.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">Bakso Bumbu Rujak</h3>
+                            <br>
+                            <h4 class="name-product">Bakso</h4>
+                            <div class="btn-buy">
+                                <a href="#order" class="btn-card">Rp. 12.000</a>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/baso-bumbu-geprek.png" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">Bakso Bumbu Geprek</h3>
+                            <br>
+                            <h4 class="name-product">Bakso</h4>
+                            <div class="btn-buy">
+                                <a href="#order" class="btn-card">Rp. 12.000</a>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="best-seller">Best Seller</div>
+                    </div>
+                    <!-- <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/kacamata.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">Anti Blue Ray Glasses</h3>
+                            <br>
+                            <h4 class="name-product">Glass</h4>
+                            <div class="btn-buy">
+                                <button class="btn-card">Rp. 100.000</button>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+
+                <!-- computer -->
+                <div class="content-box">
+                    <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/computer.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">Rog computer fullset <br> With RTX 3060</h3>
+                            <br>
+                            <h4 class="name-product">Computer Full Set</h4>
+                            <div class="btn-buy">
+                                <button class="btn-card">Rp. 4.999.999</button>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/msi.webp" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">MSI Aegis Ti3 VR7RF SLI-051US <br> High Performance</h3>
+                            <br>
+                            <h4 class="name-product">CPU</h4>
+                            <div class="btn-buy">
+                                <button class="btn-card">Rp. 4.879.000</button>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/legion.webp" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">Lenovo Legion S7 Gaming <br> Ryzen 9 VGA RTX 3060</h3>
+                            <br>
+                            <h4 class="name-product">Hat</h4>
+                            <div class="btn-buy">
+                                <button class="btn-card">Rp. 11.576.999</button>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- jacket -->
+                <div class="content-box">
+                    <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/jackect.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">black plain jacket</h3>
+                            <br>
+                            <h4 class="name-product">Jacket</h4>
+                            <div class="btn-buy">
+                                <button class="btn-card">Rp. 289.999</button>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/touring.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">black plain jacket</h3>
+                            <br>
+                            <h4 class="name-product">Jackect</h4>
+                            <div class="btn-buy">
+                                <button class="btn-card">Rp. 439.500</button>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-card">
+                        <div class="image-content">
+                            <img class="image-card" src="./image/jaket-2.jpg" alt="">
+                        </div>
+                        <div class="description">
+                            <h3 class="name-product">Spidi Voyager 2 Voyager H2 <br> H2Out Jacket</h3>
+                            <br>
+                            <h4 class="name-product">Jacket</h4>
+                            <div class="btn-buy">
+                                <button class="btn-card">Rp. 500.999</button>
+                                <div class="star">
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-fill"></i>
+                                    <i class="star-item bi bi-star-half"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end collection -->
+
+
+
+
+
+    <!-- testimoni -->
+    <section class="testimoni" id="testimoni">
+        <div class="title-primary">
+            <h3 class="t-collection">Testimoni</h3>
+            <br>
+            <h1 class="n-t-collection">Testimoni Dari Pelanggan Kami</h1>
+        </div>
+
+        <div class="main-testi">
+            <div class="card-testi">
+                <img class="img-testimoni" src="./image/pp-1.png" alt="">
+                <h2 class="username">Fulan</h2>
+                <p class="p-testi">ENAKKK BANGETTTT😝😝</p>
+                <div class="star">
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                </div>
+            </div>
+            <div class="card-testi">
+                <img class="img-testimoni" src="./image/pp-2.png" alt="">
+                <h2 class="username">Fulano</h2>
+                <p class="p-testi">Seriuss ini Baksonyaa enak banget, jadi pengen beli lagi</p>
+                <div class="star">
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                </div>
+            </div>
+            <div class="card-testi">
+                <img class="img-testimoni" src="./image/pp-wanita.jpg.jpeg" alt="">
+                <h2 class="username">Fulana</h2>
+                <p class="p-testi">Kaliann wajib banget belii bakso di siladass, soalnyaa enakk bakso nyaa</p>
+                <div class="star">
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                </div>
+            </div>
+            <div class="card-testi">
+                <img class="img-testimoni" src="./image/pp-wanita-2.jpeg" alt="">
+                <h2 class="username">Fulani</h2>
+                <p class="p-testi">Worth it banget cuma 12 ribu tapi isi nyaa banyakk</p>
+                <div class="star">
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                </div>
+            </div>
+            <div class="card-testi">
+                <img class="img-testimoni" src="./image/pp-kucing.jpg.jpeg" alt="">
+                <h2 class="username">Mochiw</h2>
+                <p class="p-testi">Miawww miau Miaaaaauu Miaawww😻😽</p>
+                <div class="star">
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                </div>
+            </div>
+            <div class="card-testi">
+                <img class="img-testimoni" src="./image/pp-annonymous.jpg.jpeg" alt="">
+                <h2 class="username">Annonymous</h2>
+                <p class="p-testi">Ini bakso cocok bangettt buat dimakan pas nonton animee!!</p>
+                <div class="star">
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                    <span class="span-star"><i class="star-item testi bi bi-star-fill"></i></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end testimoni -->
+
+
+
+
+    <!-- order -->
+    <section class="order" id="order">
+        <div class="title-primary">
+            <h3 class="t-collection">Order</h3>
+            <br>
+            <h1 class="n-t-collection">Silahkan order menu kami</h1>
+        </div>
+        <div class="main-order">
+            <div class="container-order px-4" style="padding-top: 100px;">
+
+                <!-- success -->
+                <div class="alert alert-success alert-dismissible fade show d-none" role="alert">
+                    <strong>Terima kasih!</strong> Pesanan anda sudah kami terima
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                </div>
+
+                <form action="" name="order-makanan-siladas">
+
+                    <!-- nama -->
+                    <div class="form-input">
+                        <label for="username">Nama</label>
+                        <input type="text" class="form-control input" name="nama" required>
+                    </div>
+
+                    <!-- alamat -->
+                    <div class="form-input">
+                        <label for="alamat">Alamat</label>
+                        <select name="alamat" class="form-control input" id="alamat" required>
+                            <option value="" selected disabled>
+                                pilih alamat yang anda inginkan</option>
+
+                            <option value="Wikrama">
+                                Wikrama</option>
+
+                            <option value="Rumah atau lokasi yang anda inginkan">
+                                Rumah atau lokasi yang anda inginkan</option>
+                        </select>
+                    </div>
+                    <div class="form-input" id="input-text-container">
+                        <input type="text" class="form-control input" name="alamat" id="alamat-input" readonly disabled>
+                    </div>
+
+                    <!-- no telpon -->
+                    <div class="form-input">
+                        <label for="telpon">WhatsApp/Telpon</label>
+                        <input type="tel" class="form-control input" name="telpon" required minlength="12">
+                    </div>
+
+                    <!-- varian -->
+                    <div class="form-input">
+                        <label for="varian">Varian</label>
+                        <select name="varian" class="form-control input" name="varian" id="varian" required>
+                            <option value="" selected disabled>
+                                Pilih Varian Yang Anda Inginkan</option>
+
+                            <option value="Bakso Bumbu Rujak">
+                                Bakso Bumbu Rujak</option>
+
+                            <option value="Bakso Bumbu Geprek">
+                                Bakso Bumbu Geprek</option>
+                        </select>
+                        <div class="form-text">Jika anda sudah memilih varian kemudian anda ingin mengubahnya, harap
+                            reload page</div>
+                    </div>
+
+                    <!-- jumlah -->
+                    <div class="form-input">
+                        <label for="jumlah">Jumlah</label>
+                        <input type="number" class="form-control input jumlah" name="jumlah" required>
+                    </div>
+
+                    <!-- total harga -->
+                    <div class="form-input mb-4">
+                        <label for="total">Total Harga</label>
+                        <input type="text" class="form-control total-harga text-danger" name="total" readonly>
+                    </div>
+
+                    <!-- btn submit -->
+                    <button class="btn btn-primary form-input btn-kirim px-4 py-3 rounded-pill" type="submit">Order
+                        Sekarang</button>
+
+                    <button class="btn btn-primary d-none btn-loading px-5 py-3 rounded-pill" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" aria-hidden="true"></span>
+                        <span role="status">Loading...</span>
+                    </button>
+                </form>
+            </div>
+
+            <div class="image-order">
+                <img src="./image/thank-you.png" class="image-order-item img-fluid" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- end order -->
+
+
+
+    <!-- footer -->
+    <footer>
+        <div class="main-footer d-flex flex-wrap" style="gap: 100px;">
+            <div class="main-one d-flex flex-column gap-3">
+                <img src="./image/siladas (kebas).png" class="img-fluid img-footer" alt="">
+                <p class="text-light">
+                    Upami cinta tos melekat mah,<br>
+                    Siladas lada pisan ge karasa nikmat.
+                </p>
+
+                <!-- social media -->
+                <div class="card-footer rounded-2">
+
+                    <!-- instagram -->
+                    <a href="https://www.instagram.com/siladas.bgr/" class="socialContainer containerOne">
+                        <svg class="socialSvg instagramSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <!-- twitter -->
+                    <a href="#" class="socialContainer containerTwo">
+                        <svg class="socialSvg twitterSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z">
+                            </path>
+                        </svg>
+                    </a>
+
+                    <!-- whatsapp -->
+                    <a href="http://wa.me/6281295003626" class="socialContainer containerFour">
+                        <svg class="socialSvg whatsappSvg" viewBox="0 0 16 16">
+                            <path
+                                d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z">
+                            </path>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="main-two">
+                <h1 class="text-light">Pindah Link</h1>
+                <div class="links d-flex flex-column gap-3 mt-3">
+                    <a class="text-light fs-5 link-footer" href="#">Home</a>
+                    <a class="text-light fs-5 link-footer" href="#collection">Produk</a>
+                    <a class="text-light fs-5 link-footer" href="#testimoni">Testimoni</a>
+                    <a class="text-light fs-5 link-footer" href="#order">Order</a>
+                </div>
+            </div>
+
+            <div class="main-three d-flex flex-column">
+                <h1 class="text-light">Kontak Kami</h1>
+                <div class="main-footer d-flex flex-column gap-3 mt-3">
+                    <a href="http://wa.me/6281295003626" class="text-light fs-5 d-flex gap-3"><i
+                            class="bi bi-telephone-fill i-icon"></i>+62 8129 5003 626</a>
+
+                    <a href="" class="text-light fs-5 d-flex gap-3"><i
+                            class="bi bi-envelope-at-fill i-icon"></i>siladas.bogor@gmail.com</a>
+                </div>
+            </div>
+        </div>
+        <div class="line"></div>
+        <p class="d-block m-auto text-light">
+            &copy; copyright 2024. Created By Elang Atha Zahran
+        </p>
+    </footer>
+    <!-- end footer -->
+
+
+
+
+    <!-- jquery -->
+    <script src="jquery-3.7.1.min_3.js"></script>
+
+    <!-- jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- slick js -->
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- slick content -->
+    <script>
+        $('.main-testi').slick({
+            infite: false,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+            adaptiveHeight: true,
+            prevArrow: '<span class="prev-arrow"><i class="bi arrow prev bi-arrow-left-circle-fill"></i></span>',
+            nextArrow: '<span class="next-arrow"><i class="bi arrow next bi-arrow-right-circle-fill"></i></span>',
+            dots: false,
+            centerMode: true,
+            centerPadding: '0',
+            responsive: [{
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            }, ]
+        });
+    </script>
+
+    <!-- boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+
+    <script src="script.js"></script>
+
+    <script>
+        const scriptURL =
+            'https://script.google.com/macros/s/AKfycbwmVPm9ZFvHKEYH7t-cgGWzznjQg2-dw2QiG6zw-_22d2UHzjdeOGNZox2AA2ul9Mqk/exec';
+        const form = document.forms['order-makanan-siladas']
+        const btnKirim = document.querySelector('.btn-kirim');
+        const btnLoading = document.querySelector('.btn-loading');
+        const alert = document.querySelector('.alert');
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            // ketika tombol submit di click
+            // tampilkan tombol loading, hilangkan tombol kirim
+
+            btnLoading.classList.toggle('d-none');
+            btnKirim.classList.toggle('d-none');
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    // tampilkan tombol kirim, hilangkan tombol loading
+                    btnLoading.classList.toggle('d-none');
+                    btnKirim.classList.toggle('d-none');
+                    // tampilkan alert
+                    alert.classList.toggle('d-none');
+                    // reset form
+                    form.reset();
+
+                    console.log('Success!', response)
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!-- vanilla js -->
+    <script type="text/javascript" src="tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".card-testi"), {
+            max: 25,
+            speed: 9999,
+            glare: true,
+            reverse: false
+        });
+    </script>
+</body>
+
+</html>
